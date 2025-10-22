@@ -11,6 +11,19 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+h1, h2, h3 {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+/* For mobile screens */
 @media screen and (max-width: 39.9375em) {
 	body {
 		font-size: 24px;
@@ -32,20 +45,4 @@ body {
 		font-size: 1em;
 		font-weight: bold;
 	}
-}
-
-h1, h2, h3 {
-	text-align: center;
-}
-
-p:not(.ornament) {
-	margin: 0 0 1rem 0;
-}
-
-img {
-	max-width: 100%;
-}
-
-.text-align-center {
-	text-align: center;
 }
