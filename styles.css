@@ -21,7 +21,6 @@ img {
 
 i {
 	color: red;
-	font-weight: 400;
 }
 
 .font-style-italic {
@@ -59,5 +58,8 @@ i {
 		font-weight: bold;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
+	}
+	.condac-icos {
+		text-align: left;
 	}
 }
